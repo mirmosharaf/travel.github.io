@@ -1,0 +1,82 @@
+*{
+	padding: 0;
+	margin: 0;color: white;
+}
+html{
+	font-size: 62.5%;
+}
+
+
+.main{ 
+
+background-image: url(lemon.jpg);
+background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	border: 0.1rem solid black;
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	grid-template-rows: 9.6rem ;
+}
+
+.div1{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+
+}
+
+
+
+
+ul{display: block;
+	display: flex;
+	list-style-type: none;
+	font-size: 3rem;
+}
+
+
+li{
+	
+	display: block;
+	
+	border-right: 1px solid yellow;
+	
+}
+li:last-child{
+	border: none;
+}
+
+
+a{  display: block;padding: 3rem 4rem;
+	
+	
+	text-decoration: none;
+
+}
+a:hover{
+	background-color: black;
+
+
+}
+
+.search{
+	display: inline-block;
+	position: absolute;
+	top:3rem;
+	right: 5rem;
+	width: 15rem;
+	border-radius: 2rem;
+
+}
+
+@media(max-width: 998px) {
+	html{
+		font-size: 55.5%
+	}
+}
+
+@media(max-width:768px) {
+	html{
+		font-size: 45.5%
+	}
+}
